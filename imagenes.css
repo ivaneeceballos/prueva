@@ -1,0 +1,38 @@
+html {
+    font-size: 62,5%;
+}
+body {
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
+}
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --negro: #000000;
+}
+/* media querie imagen */
+.img {
+    max-width: 500px;
+}
+@media (max-width: 768px) {
+     .img {
+        width: 300px;
+     }
+}
+/* imagenes en css */
+.hero {
+    /*background-image: url(src/icononav1.jfif);
+    background-repeat:;*/
+    background-color: var(--negro);
+    display: flex;
+   justify-content: flex-start;
+   /* align-items: center; */
+   background-color: #000000;
+   padding: 0px 10px; 
+}
+.contenido-hero{
+}
+

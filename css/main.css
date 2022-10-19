@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-size: 40px;    
+}
+.seccion-main {
+    display:block;
+    text-align: center;
+    justify-content: center;
+    padding: 4px;
+}
+.article h2 {
+        text-align: center;
+         font-size: 30px; 
+         padding: 20px;   
+}
+.article p{
+    text-align: center;
+    font-size: 30px; 
+    padding: 20px;  
+}
+.articleDos h2 {
+    text-align: center;
+    font-size: 30px; 
+    padding: 20px;  
+}
+.articleDos p {
+    text-align: center;
+    font-size: 30px; 
+    padding: 30px;  
+}
